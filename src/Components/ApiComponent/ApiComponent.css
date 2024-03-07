@@ -1,0 +1,49 @@
+p
+{
+    color:white;
+    margin-bottom: 0px;
+    padding-bottom: 0;
+    font-size:x-large;
+}
+
+li{
+    list-style-type: none;
+}
+
+.layout
+{
+    width:100%;
+}
+
+.box{
+display: flex;
+justify-content: center;
+flex-direction: column;
+text-align: center;
+align-items: center;
+}
+
+button {
+   width:7%;
+   padding:5px;
+   font-size: larger;
+   color:white;
+   background-color: gray;
+   text-align: center;
+}
+.box-align
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+#box-align
+{
+    display: flex;
+    margin: 10px;
+    border:2px solid white;
+    width:17%;
+    height:13%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
