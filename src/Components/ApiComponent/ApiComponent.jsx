@@ -11,9 +11,8 @@ const ApiComponent = () => {
     }
   return (
     <React.Fragment>
-        <div class="layout">
         <div class="box">
-        <p>Characters Data</p><br/>
+        <p>Characters Data</p>
         <button onClick={getDataFromApi}>Get Data</button>
         </div>
         <ul class="box-align">
@@ -28,7 +27,6 @@ const ApiComponent = () => {
             </li>
             ))}
         </ul>
-        </div>
         </React.Fragment>
   )
 }

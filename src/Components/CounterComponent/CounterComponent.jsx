@@ -12,7 +12,7 @@ const CounterComponent = () => {
 
   return (
     <React.Fragment>
-        <p>COUNTER COMPONENT</p>
+        <p style={{margin:"0px"}}>COUNTER COMPONENT</p>
       <section class="counter">
     <button onClick={addCounter} class="btn">+1</button>
     <p id="val">{value}</p>
