@@ -1,6 +1,7 @@
 import axios from 'axios'
 import React, { useState } from 'react'
 import './ApiComponent.css'
+
 const ApiComponent = () => {
     const [userData,setUserData]=useState(null)
     const getDataFromApi =async()=>{
@@ -11,13 +12,13 @@ const ApiComponent = () => {
     }
   return (
     <React.Fragment>
-        <div class="box">
+        <div className="box">
         <p>Characters Data</p>
         <button onClick={getDataFromApi}>Get Data</button>
         </div>
-        <ul class="box-align">
+        <ul className="box-align">
             {userData && userData.map((iterator)=>(
-            <li key={iterator.id} id="box-align">
+            <li key={iterator.id} className="box-arrange">
              <p>
                                 {iterator.name.firstname} {iterator.name.lastname}<br/>
                                 {iterator.username}<br />

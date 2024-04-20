@@ -9,15 +9,15 @@ const App = () => {
 
     <Router>
     <nav>
-     <ul class="align">
+     <ul className="align">
        <li>
-         <Link to='/' class="link">Home</Link>
+         <Link to='/' className="link">Home</Link>
          </li>
        <li>
-         <Link to='/about' class="link">Counter</Link>
+         <Link to='/about' className="link">Counter</Link>
          </li>
        <li>
-         <Link to='/contact' class="link">Characters</Link>
+         <Link to='/contact' className="link">Characters</Link>
          </li>
      </ul>
     </nav>

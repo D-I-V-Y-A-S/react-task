@@ -13,10 +13,10 @@ const CounterComponent = () => {
   return (
     <React.Fragment>
         <p style={{margin:"0px"}}>COUNTER COMPONENT</p>
-      <section class="counter">
-    <button onClick={addCounter} class="btn">+1</button>
-    <p id="val">{value}</p>
-    <button onClick={decCounter} class="btn">-1</button>
+      <section className="counter">
+    <button onClick={addCounter} className="btn">+1</button>
+    <p className="val">{value}</p>
+    <button onClick={decCounter} className="btn">-1</button>
     </section>
     </React.Fragment>
 
